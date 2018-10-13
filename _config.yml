@@ -35,6 +35,8 @@ paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
+sass:
+  sass_dir: _scss
 
 kramdown:
   # use Github Flavored Markdown
@@ -44,8 +46,3 @@ kramdown:
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-
-theme:
-  colors: 
-    highlight: '#00ace6'
-    hover: '#66d9ff'

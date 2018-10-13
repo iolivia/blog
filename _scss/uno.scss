@@ -1,6 +1,3 @@
----
----
-
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
@@ -769,9 +766,9 @@ body {
 
 a {
 	text-decoration: none;
-	color: {{ site.theme.colors.highlight }}; }
+	color: $highlight-color; }
 	a:hover {
-		color: {{ site.theme.colors.hover }};
+		color: $hover-color;
 		-o-transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
 		-webkit-transition: all .3s ease-in-out;
@@ -890,7 +887,7 @@ pre {
 		.time a:hover,
 		.author a:hover,
 		.tags a:hover {
-			color: {{ site.theme.colors.hover }}; }
+			color: $hover-color; }
 
 .excerpt {
 	margin: 0;
@@ -920,7 +917,7 @@ pre {
 	position: relative;
 	display: inline-block;
 	padding: 8px 18px 9px 18px;
-	background: {{ site.theme.colors.highlight }};
+	background: $highlight-color;
 	border-radius: 3px;
 	text-align: center;
 	color: #FFF; }
@@ -955,7 +952,7 @@ pre {
 		color: #a6a6a6;
 		text-decoration: underline; }
 		.footer__copyright a:hover {
-			color: {{ site.theme.colors.hover }}; }
+			color: $hover-color; }
 
 .avatar,
 .logo {
@@ -1153,17 +1150,17 @@ hr {
 
 .btn, .navigation__item a {
 	padding: 10px 20px;
-	border: 1px solid {{ site.theme.colors.highlight }};
+	border: 1px solid $highlight-color;
 	border-radius: 20px;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-shadow: none;
-	color: {{ site.theme.colors.highlight }};
+	color: $highlight-color;
 	-webkit-font-smoothing: antialiased; }
 	.btn:hover, .navigation__item a:hover {
-		color: {{ site.theme.colors.hover }};
-		border-color: {{ site.theme.colors.hover }}; }
+		color: $hover-color;
+		border-color: $hover-color; }
 
 .btn-secondary {
 	border-color: #5ba4e5;
@@ -1286,7 +1283,7 @@ i {
 	.post-list__post-title a {
 		color: #333333; }
 		.post-list__post-title a:hover {
-			color: {{ site.theme.colors.hover }}; }
+			color: $hover-color; }
 
 .post-list__meta {
 	display: block;
