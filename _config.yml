@@ -16,6 +16,9 @@ social:
   - linkedin:
     name: linkedin
     link: https://www.linkedin.com/in/oliviaifrim/
+  - quora:
+    name: quora
+    link: https://www.quora.com/profile/Olivia-Ifrim
  
 defaults:
   -
