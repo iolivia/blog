@@ -767,14 +767,15 @@ body {
 a {
 	text-decoration: none;
 	color: $highlight-color; }
-	a:hover {
+
+.panel-inverted a:hover,
+a:hover {
 		color: $hover-color;
 		-o-transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
 		-webkit-transition: all .3s ease-in-out;
 		-moz-transition: all .3s ease-in-out;
-		transition: all .3s ease-in-out;
-}
+		transition: all .3s ease-in-out;}
 
 h1,
 h2,
@@ -1099,7 +1100,7 @@ hr {
 	vertical-align: middle;
 	position: relative;
 	z-index: 800;
-	padding: 0 60px; }
+	padding: 0 20px; }
 
 .panel-main__content {
 	max-width: 620px;
@@ -1431,7 +1432,7 @@ input[type="tel"] {
 
 	.panel-main__inner {
 		display: table-cell;
-		padding: 60px 10%; }
+		padding: 20px 2%; }
 
 	.panel-cover__description {
 		display: block;

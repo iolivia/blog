@@ -12,7 +12,11 @@
 					<h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
 				</a>
 				<hr class="panel-cover__divider">
-				<p class="panel-cover__description">{{ site.description }}</p>
+				<p class="panel-cover__description">
+						{{ site.description }}
+						<br />
+						{{ site.description-additional }}
+				</p>
 				<hr class="panel-cover__divider panel-cover__divider--secondary">
 
 				<div class="navigation-wrapper">
@@ -35,8 +39,14 @@
 
 					</nav>
 
+					
 				</div>
 
+				<div class="">
+					<!-- email -->
+					<hr class="panel-cover__divider">
+					<a href="mailto:{{ site.email }}" title="{{ site.email }}" target="_blank">{{ site.email }}</a>
+				</div>
 			</div>
 
 		</div>

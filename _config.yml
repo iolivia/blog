@@ -1,7 +1,9 @@
 # Site settings
 title: Olivia Ifrim
-description: 'Intelligence is the ability to adapt to change.'
+description: 'Software Engineer II @ Amazon'
+description-additional: 'Ex-Microsoft | Speaker'
 url: 'https://iolivia.github.io/blog'
+email: 'olivia_github@outlook.com'
 baseurl: '/'
 google_analytics: 'UA-99619076-1'
 disqus_shortname: 'olivif'
