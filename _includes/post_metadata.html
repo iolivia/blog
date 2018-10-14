@@ -1,0 +1,27 @@
+<div class="post-meta">
+    <!--date-->
+    <time datetime="{{ include.post.date | date: " %-d %b %Y " }}" class="post-meta__date date">{{ include.post.date | date: "%-d %b %Y" }}</time> 
+
+    <!--separator-->
+    &#8226;
+
+    <!--tags-->
+    <span class="post-meta__tags"> on 
+        {% for tag in include.post.tags %}
+        <a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a>
+        <span>/ </span>
+        {% endfor %}
+    </span>
+
+    <!--reading time-->
+    {% if site.features.readingtime %} 
+
+        <!--separator-->
+        &#8226;
+
+        <span class="post-meta__readingtime readingtime"> 
+        {% include read_time.html %} read
+        </span>
+    {% endif %}
+
+</div>
